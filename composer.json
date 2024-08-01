@@ -1,0 +1,7 @@
+{
+    "require": {
+        "doctrine/orm": "^2.19",
+        "symfony/mailer": "^5.4",
+        "symfony/maker-bundle": "^1.43"
+    }
+}

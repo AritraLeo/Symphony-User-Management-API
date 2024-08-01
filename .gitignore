@@ -1,0 +1,47 @@
+# .gitignore for Symfony project
+
+# Ignore .env files containing sensitive information
+.env
+.env.local
+.env.*.local
+
+# Ignore Symfony cache and logs
+/var/cache/*
+/var/log/*
+/var/sessions/*
+
+# Ignore uploaded files
+/public/uploads
+
+# Ignore database files
+/var/data/*.db
+/var/data/*.sqlite
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore node_modules
+/node_modules/
+
+# Ignore build files
+/build/
+
+# Ignore IDE specific files
+/.idea/
+/.vscode/
+/nbproject/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore composer.lock (if you prefer)
+/composer.lock
+
+# Ignore Symfony encore cache
+/public/build/
